@@ -23,7 +23,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="sub">Andogam Descent · last updated 15 September 2026</p>
+<p class="sub">Andogam Descent · last updated 12 October 2026</p>
 
 <p class="lede">Andogam Descent does not collect, transmit, or share any data about you.
 There is no analytics, no advertising, no tracking, and no account. The app has no
@@ -34,10 +34,20 @@ network code in it at all.</p>
 no crash reporting.</p>
 
 <h2>Network access</h2>
-<p>The app makes no network requests of any kind. It contains no networking code, no
-third-party SDKs, and no external dependencies. The game runs entirely from files
-inside the app bundle and is fully playable offline and in Airplane Mode. Because
-nothing is sent anywhere, there is nothing to intercept, sell, or leak.</p>
+<p>The app makes no requests to any server of ours or of anyone else's. It contains
+no third-party SDKs and no external dependencies. The game runs entirely from files
+inside the app bundle and is fully playable offline and in Airplane Mode. Two things
+touch a network, and neither sends anything to us:</p>
+<ul>
+  <li><b>The optional purchase.</b> Unlocking the full game is a one-time in-app
+  purchase handled entirely by Apple's App Store. Payment details go to Apple and
+  never reach us, and we never see them.</li>
+  <li><b>Optional two-player co-op.</b> If you start a co-op game, the two phones
+  talk directly to each other over the local network using Apple's
+  MultipeerConnectivity. They exchange game state only, nothing passes through any
+  server, and nothing is kept once the session ends. iOS asks your permission first
+  (Local Network).</li>
+</ul>
 
 <h2>What is stored on your device</h2>
 <p>The game saves your progress so you can continue where you left off. This includes
@@ -52,12 +62,14 @@ recovered datapads, audio volume settings, and any run in progress.</p>
 
 <h2>Children</h2>
 <p>The app is safe for all ages with respect to privacy: because it collects no data
-whatsoever, it collects no data from children either. It contains no ads, no in-app
-purchases, no chat, no user-generated content, and no links out to the web.</p>
+whatsoever, it collects no data from children either. It contains no ads, no chat, no
+user-generated content, and no links out to the web. Its one in-app purchase is
+processed by Apple.</p>
 
 <h2>Third parties</h2>
 <p>There are none. No advertising networks, no analytics providers, no cloud services,
-no social logins, no payment processors.</p>
+no social logins. Purchases are processed by Apple, which is the App Store itself
+rather than a party we share data with.</p>
 
 <h2>Your rights</h2>
 <p>Since no data ever reaches us, there is no data for us to access, correct, export,
@@ -73,7 +85,7 @@ release, which is reviewed by Apple.</p>
 <p>Questions about this policy: <a href="mailto:andogamdescent@gmail.com">andogamdescent@gmail.com</a></p>
 
 <footer>
-Andogam Descent is a single-player game that runs entirely on your device.
+Andogam Descent runs entirely on your device.
 </footer>
 
 </body>
